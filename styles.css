@@ -1,10 +1,9 @@
 td {
-    
+    height: 70px;
+    width: 70px;
     border: 1px solid black;
     text-align: center;
    
-   
-
 }
 
 .table-border {
@@ -24,10 +23,29 @@ h1 {
 }
 
 .content{
-    width: 100%;
+    
 }
 
 .second-content{
-    
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
 
+}
+
+.red{
+    background-color: red   ;
+}
+
+.space {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.blank {
+    border: none;
+    transform: translate(-300%, 120%);
+    font-size: 20px;
 }

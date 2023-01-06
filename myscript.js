@@ -193,3 +193,4 @@ if (operation === "add") {
 
 // Log the result to the console
 console.log(result);
+console.log(result)
